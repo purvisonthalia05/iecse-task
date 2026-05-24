@@ -1,5 +1,4 @@
 # iecse-task
-leetcode problems
 
 1. Problem Statement : Pascals Traingle
 Given an integer numRows, return the first numRows of Pascal's triangle.
@@ -43,3 +42,10 @@ A perfect square is an integer that is the square of an integer; in other words,
 
 Logic : 
 
+for this, i have first taken an array dp which stores the value of the number of squares required. there runs one loop from 1 to the num value and for each number 1,2,3...n i cal the number of squares required and store it in dp which is then used to calc the squares for the next number. there is an inner loop which runs from j=1 to j*j<=i which basically only counts the perfect square numbers 1,4,9... then we calculate the number of squares required for current and previous values and reintialises the dp value using math.min
+
+6. Problem Statement: Longest Increasing Subsequence
+
+Given an integer array nums, return the length of the longest strictly increasing subsequence. A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+
+Logic : 
