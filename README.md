@@ -48,7 +48,7 @@ for this, i have first taken an array dp which stores the value of the number of
 
 Given an integer array nums, return the length of the longest strictly increasing subsequence. A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 
-Logic : 
+Logic : For this, the base case is initialising dp array with 1, then we run 2 loops, one outer loop which runs from 1 to the end of the array and another one which runs from j=1 to j<=1, if value at index j > value at index i then we increase the count of dp and reinitialise dp[i] with the new value. we continue to do this for the entire array and compare each value of dp using math.max and also changing the value of final answer to get the final number of elements in the LIS. 
 
 7. Problem Statement : Coin Change
 
