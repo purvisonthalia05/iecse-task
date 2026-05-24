@@ -53,7 +53,7 @@ You are given an integer array coins representing coins of different denominatio
 Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
 You may assume that you have an infinite number of each kind of coin.
 
-Logic : 
+Logic : same logic as problem 5 of perfect squares 
 
 8. Problem Statement : Partition Equal Subset Sum
 
