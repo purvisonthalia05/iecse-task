@@ -49,3 +49,27 @@ for this, i have first taken an array dp which stores the value of the number of
 Given an integer array nums, return the length of the longest strictly increasing subsequence. A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 
 Logic : 
+
+7. Problem Statement : Coin Change
+
+You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
+Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
+You may assume that you have an infinite number of each kind of coin.
+
+Logic : 
+
+8. Problem Statement : Partition Equal Subset Sum
+
+Given an integer array nums, return true if you can partition the array into two subsets such that the sum of the elements in both subsets is equal or false otherwise.
+
+Logic : 
+
+9. Problem Statement : Longest Common Subsequence
+
+Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+For example, "ace" is a subsequence of "abcde".
+A common subsequence of two strings is a subsequence that is common to both strings.
+
+Logic : 
+
